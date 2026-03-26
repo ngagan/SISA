@@ -19,7 +19,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/analyze")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "*")
 public class AnalysisController {
 
     @Autowired private FileService fileService;
